@@ -1,2 +1,5 @@
+.gitignore
 # Dependency directories
 node_modules
+# working env
+tmp
