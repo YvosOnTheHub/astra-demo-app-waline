@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: waline-frontend
-        image: quay.io/hland-demo/astra/waline-frontend:insight2023.06
+        image: quay.io/yvosonthehub/astra/waline-frontend:demostd
         ports:
         - containerPort: 3000
           name: web
