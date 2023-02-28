@@ -4,7 +4,7 @@ Demo using Waline comment system to quickly create content and then backup/resto
 
 > This is for demo purposes only! Passwords are not properly stored and it is not optimized for security!
 
-Simply deploy the yaml files on K8s. All container images are pulled from quay.io to avoid any issues with Docker Hub pull rate limits in lab environments. 
+Simply deploy the yaml files on K8s (YAML folder). All container images are pulled from quay.io to avoid any issues with Docker Hub pull rate limits in lab environments. 
 Get the loadbalancer IP and access the demo app via http://<IP>. Create some content, perform a backup. Then simulate a ransomware attack 
 by going to http://<IP>/attack There is a login just to prevent accidential/premature attacks. Login with user _hack_ and password _astra123_. This will encrypt/scramble all comments. Refresh the demo app to see the result. Then restore.
 
