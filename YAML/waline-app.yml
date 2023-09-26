@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
       - name: waline
-        image: quay.io/yvosonthehub/astra/waline:demostd-slim
+        image: quay.io/yvosonthehub/astra/waline:demostd
         env:
         - name: SITE_URL
           value: "http://127.0.0.1/waline"
