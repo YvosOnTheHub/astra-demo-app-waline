@@ -113,6 +113,8 @@ kind: Service
 apiVersion: v1
 metadata:
   name: nginx-custom
+  annotations:
+    metallb.universe.tf/address-pool: ninja
 spec:
   type: LoadBalancer
   #loadBalancerIP: 34.89.150.245
